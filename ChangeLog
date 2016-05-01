@@ -1,0 +1,4 @@
+2016-05-01 Martin A. Brown <martin@linux-ip.net>
+  * adding ChangeLog (this file)
+  * creating central git(hub.com) repo for all DSSL, XSL and CSS
+  * switching to UTF-8 for all HTML output from the XSL stylesheets
