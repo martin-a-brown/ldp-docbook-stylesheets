@@ -3,11 +3,11 @@
 <xsl:stylesheet version="1.0" 
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<!-- Create a link to a CSS stylesheet named 'style.css' in all html
+<!-- Create a link to a CSS stylesheet named 'tldp-style.css' in all html
      output so that pages can be beautified.  Browsers not supporting
      CSS will simply ignore the link. -->
 <xsl:param name="html.stylesheet.type">text/css</xsl:param>
-<xsl:param name="html.stylesheet" select="'style.css'"></xsl:param>
+<xsl:param name="html.stylesheet" select="'tldp-style.css'"></xsl:param>
 
 <!-- Generate a label for each section (as well as chapters). -->
 <xsl:param name="section.autolabel" select="1"/>
