@@ -1,0 +1,32 @@
+/*
+ *  Name: Stock TLDP DocBook CSS file
+ *  Date: 2016-May-01
+ *  Description: Intended for styling DocBook outputs only.
+ *  Author: Martin A. Brown
+ *  Author URI: https://github.com/martin-a-brown/ldp-docbook-stylesheets
+ */
+
+a {
+  color: #0000aa;
+  text-decoration: none; }
+
+a:hover {
+  color: #0000aa;
+  text-decoration: underline; }
+
+pre {
+  background-color: #dddddd;
+  padding: 10px;
+  margin: 10px;
+  overflow: auto; }
+
+blockquote {
+  margin: 20px;
+  font-style: normal;
+  border: 0; }
+
+blockquote p {
+  font-size: 1em;
+  margin-bottom: 1em;
+  font-weight: normal; }
+
