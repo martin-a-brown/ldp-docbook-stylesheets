@@ -206,6 +206,10 @@
   ;; Use ID attributes as name for component HTML files?
   #t)
 
+(define %stylesheet%
+  ;; Specify a CSS stylesheet to load.
+  "tldp-style.css")
+
 (define %graphic-extensions%
   ;; graphic extensions allowed
   '("gif" "png" "jpg" "jpeg" "tif" "tiff" "eps" "epsf" ))
