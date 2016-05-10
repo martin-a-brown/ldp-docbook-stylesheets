@@ -17,8 +17,11 @@ Directory tree::
   ldp-docbook-stylesheets/
   ├── css
   ├── dsssl
-  └── xsl
-      ├── doc
+  ├── xsl
+  │   ├── doc
+  │   ├── fo
+  │   └── html
+  └── xsl-ns
       ├── fo
       └── html
 
@@ -29,7 +32,8 @@ they may end up in different packages in your distribution.)
   * The `dsssl` directory contains Greg Ferguson's venerable `ldp.dsl` file,
     for processing all of the DocBook SGML versions.
   * The `xsl` directory contains different customization layers for FO and
-    HTML outputs for use with DocBook XML 4.x.
+    HTML outputs for use with DocBook XML 4.x.  David Horton, the author of
+    the first LDP Docbook XSL stylesheet customization layer included 
   * The `xsl-ns` directory contains different customization layers for FO and
     HTML outputs for use with DocBook XML 5.x.
 
