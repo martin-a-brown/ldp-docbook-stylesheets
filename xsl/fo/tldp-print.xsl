@@ -11,12 +11,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   -->
 <xsl:import href="http://docbook.sourceforge.net/release/xsl/current/fo/docbook.xsl"/>
 
-<!-- Number all sections in the style of 'CH.S1.S2 Section Title' where
-     CH is the chapter number,  S1 is the section number and S2 is the
-     sub-section number.  The lables are not limited to any particular
-     depth and can go as far as there are sections. -->
-<xsl:param name="section.autolabel" select="1"></xsl:param>
-<xsl:param name="section.label.includes.component.label" select="0"></xsl:param>
+<!-- Generate a label for each section (as well as chapters). -->
+<xsl:param name="section.autolabel" select="1"/>
+
+<!-- When generating labels, include parent's label, (e.g. 1.3, 1.4) -->
+<xsl:param name="section.label.includes.component.label" select="1"/>
 
 <!-- Turn off the default 'full justify' and go with 'left justify'
      instead.  This avoids the large gaps that can sometimes appear
